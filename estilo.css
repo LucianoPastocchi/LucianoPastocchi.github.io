@@ -1,0 +1,181 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Arvo', serif;
+	}
+
+.image {
+	background-image: url(boliche.jpg);
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+
+.nav {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color: rgba(30, 33, 34, 0.6);
+}
+
+.nav_ul {
+	text-align: center;
+}
+
+.nav_li {
+	display: inline-block;
+	padding: 14px;
+}
+
+.nav_li:hover > a {
+	color: #441AD5;
+}
+
+.nav_li a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.dropbtn {
+	display: inline-block;
+	text-align: center;
+}
+
+li.dropdown {
+	display: inline-block;
+}
+
+.dropdown_content {
+  display: none; /*SIN EL HOVER NO SE MUESTRA*/
+  position: absolute;
+  background-color: #441AD5;
+}
+
+.dropdown_content a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown_content a:hover {
+	text-decoration: underline;
+	background-color: white;
+	color: #441AD5;
+}
+
+.dropdown:hover .dropdown_content { /*por esto te lo muestra en bloque*/
+  display: block;
+}
+
+/*FIN BARRA DE NAVEGACIÓN*/
+
+.first_page h1 {
+	color: white;
+	display: inline;
+	margin: 40px;
+}
+
+.form_opinion h1 {
+	margin: 40px;
+}
+
+.form_opinion{
+	float: right;
+}
+
+.form_opinion h1 {
+	margin-bottom: 50px;
+}
+
+/*CONTENEDOR FORM OPINION*/
+
+.form_contenedor {
+	position: relative;
+	width: 450px;
+	height: 500px;
+	border: 5px solid #441AD5;
+	border-radius: 10px;
+	margin-right: 40px;
+	margin-top: 20px;
+	background-color: rgb(68, 26, 213, 0.3)
+}
+
+.form_contenedor label {
+	color: white;
+	background-color: #441AD5;
+	width: 100px;
+}
+
+.label_zona {
+	position: absolute;
+	top: 100px;
+}
+
+.input_zona{
+	position: absolute;
+	top: 100px;
+	left: 200px;
+}
+
+.label_sitios {
+	position: absolute;
+	top: 200px;	
+}
+
+.input_sitios {
+	position: absolute;
+	top: 200px;
+	left: 200px;
+	width: 200px;
+}
+
+.form_contenedor textarea {
+	position: absolute;
+	bottom: 60px;
+	overflow: scroll;
+	margin-left: 50px;
+}
+/*FIN CONTENEDOR*
+/*TABLA ZONAS*/
+.table_zonas {
+	border-spacing: 40px;
+	text-transform: uppercase;
+	box-sizing: border-box;
+}
+
+.table_zonas td {
+	background-color: #441AD5;
+	width: 200px;
+	padding: 7px;
+}
+
+.links_tabla a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+.links_tabla:hover > a{
+	color: #441AD5;
+	text-decoration: underline;
+}
+
+.links_tabla:hover {
+	background-color: white;
+}
+
+
+
+
+
