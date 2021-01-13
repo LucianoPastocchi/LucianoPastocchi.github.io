@@ -36,8 +36,8 @@
 				<form>
 				<label class="label_zona" for="flabel_zona">ZONAS</label>
 				<div class ="input_zona">
-					<select name="zonas">
-						<option class="option_palermo">PALERMO</option>
+					<select name="zonas" class="select_zonas">
+						<option>PALERMO</option>
 						<option>CABALLITO</option>
 						<option>BELGRANO</option>
 						<option>NUÑEZ</option>
@@ -47,13 +47,16 @@
 						<option>ALMAGRO</option>
 					</select>
 				</div>
-				<label class="label_sitios" for="flabel_sitios">SITIOS</label>
+				<label class="label_sitios" for="flabel_sitios">LOCALES</label>
 				<div class="input_sitios">
 					<select name="sitios">
 						
 					</select>
 				</div>
-				<textarea placeholder="¡Tu opinión vale!" name="opinion" rows="10" cols="40"></textarea>
+				<textarea class="opinion" placeholder="¡Tu opinión vale!" name="opinion"></textarea>
+				<div class="enviar">
+					<input type="submit" value="Enviar">
+				</div>
 			</form>
 			</div>
 		</div>

@@ -115,29 +115,37 @@ li.dropdown {
 	color: white;
 	background-color: #441AD5;
 	width: 100px;
+	text-align: center;
 }
 
 .label_zona {
 	position: absolute;
 	top: 100px;
+	margin-left: 40px;
 }
 
 .input_zona{
 	position: absolute;
 	top: 100px;
 	left: 200px;
+	border: #441AD5 none solid 10px;	
+}
+
+.select_zonas {
+	width: 200px;
 }
 
 .label_sitios {
 	position: absolute;
 	top: 200px;	
+	margin-left: 40px;
 }
 
 .input_sitios {
 	position: absolute;
 	top: 200px;
 	left: 200px;
-	width: 200px;
+	width: 500px;
 }
 
 .form_contenedor textarea {
