@@ -128,7 +128,11 @@ li.dropdown {
 	position: absolute;
 	top: 100px;
 	left: 200px;
-	border: #441AD5 none solid 10px;	
+}
+
+.input_zona select:focus {
+	outline: none;
+	border: #441AD5 solid 3px;
 }
 
 .select_zonas {
@@ -148,12 +152,46 @@ li.dropdown {
 	width: 500px;
 }
 
-.form_contenedor textarea {
-	position: absolute;
-	bottom: 60px;
-	overflow: scroll;
-	margin-left: 50px;
+.input_sitios select:focus {
+	outline: none;
+	border: #441AD5 solid 3px;
 }
+
+.form_textarea {
+	position: absolute;
+	bottom: 100px;
+	left: 45px;
+}
+
+.form_opinion textarea {
+	border: none;
+	overflow: auto;
+	outline: none;
+	box-shadow: none;
+	margin: auto;
+	height: 100px;
+	width: 360px;
+	background-color: #441AD5;
+	color: white;
+}
+
+::-webkit-input-placeholder { 
+    color: white;
+}
+
+.enviar {
+	position: absolute;
+	bottom: 40px;
+	left: 180px;
+}
+
+.enviar input[type="submit"] {
+	background-color: #441AD5;
+	border-bottom: none;
+	padding: 12px;
+	color: white;
+}
+
 /*FIN CONTENEDOR*
 /*TABLA ZONAS*/
 .table_zonas {
