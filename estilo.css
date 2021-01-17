@@ -17,6 +17,7 @@ body {
 	background-color: black;
 }	
 
+
 /*BARRA DE NAVEGACIÓN*/
 
 .nav {
@@ -24,6 +25,7 @@ body {
 	position: sticky;
 	top: 0;
 	background-color: rgba(30, 33, 34, 0.6);
+	margin-bottom: 20px;
 }
 
 .nav_ul {
@@ -82,20 +84,19 @@ li.dropdown {
 
 .first_page {
 	overflow: hidden;
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px;
 }
 
 .first_page h1 {
 	color: white;
 	display: inline;
-	margin: 40px;
-}
-
-.form_opinion h1 {
-	margin: 40px;
 }
 
 .form_opinion{
 	float: right;
+	width: 40%;
 }
 
 ::after {
@@ -112,7 +113,6 @@ li.dropdown {
 	border: 5px solid #441AD5;
 	border-radius: 10px;
 	margin-top: 10px;
-	margin-right: 100px;
 	background-color: rgb(68, 26, 213, 0.3);
 }
 
@@ -214,6 +214,15 @@ li.dropdown {
 /*FIN CONTENEDOR*
 /*TABLA ZONAS*/
 
+h1 {
+	margin-left: 40px;
+}
+
+.zonas {
+	width: 60%;
+	float: right;
+}
+
 .table_zonas {
 	border-spacing: 40px;
 	text-transform: uppercase;
@@ -262,4 +271,15 @@ li.dropdown {
 .queres_saber h2>a:hover {
 	text-decoration: underline;
 	color: #441AD5;
+}
+
+@media screen and (max-width: 800px) {
+	.zonas {
+		width: 100%;
+		margin: 20px 20px;
+	}
+	.form_opinion {
+		width: 100%;
+		margin: 20px 20px;
+	}
 }
