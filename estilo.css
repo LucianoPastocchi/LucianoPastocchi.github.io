@@ -17,10 +17,13 @@ body {
 	background-color: black;
 }	
 
+h1 {
+	color: white;
+}
 
 /*BARRA DE NAVEGACIÓN*/
 
-.nav {
+.navegacion {
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
@@ -112,16 +115,6 @@ li.dropdown {
 	height: 500px;
 	border: 5px solid #441AD5;
 	border-radius: 10px;
-	margin-top: 10px;
-	background-color: rgb(68, 26, 213, 0.3);
-}
-
-.form_contenedor h1 {
-	position: absolute;
-	text-align: center;
-	font-size: 30px;
-	margin-top: 15px;
-	margin-right: 10px;
 }
 
 .form_contenedor label {
@@ -214,15 +207,6 @@ li.dropdown {
 /*FIN CONTENEDOR*
 /*TABLA ZONAS*/
 
-h1 {
-	margin-left: 40px;
-}
-
-.zonas {
-	width: 60%;
-	float: right;
-}
-
 .table_zonas {
 	border-spacing: 40px;
 	text-transform: uppercase;
@@ -273,13 +257,4 @@ h1 {
 	color: #441AD5;
 }
 
-@media screen and (max-width: 800px) {
-	.zonas {
-		width: 100%;
-		margin: 20px 20px;
-	}
-	.form_opinion {
-		width: 100%;
-		margin: 20px 20px;
-	}
-}
+	

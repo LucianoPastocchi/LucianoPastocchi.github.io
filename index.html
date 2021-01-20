@@ -7,10 +7,11 @@
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css /bootstrap.min.css">
 	<script src="https://kit.fontawesome.com/44a904a2f5.js" crossorigin="anonymous"></script>
 	</head>	
 	<body>
-		<header class="nav">
+		<header class="navegacion">
 			<nav>
 				<ul class="nav_ul">
 					<li class="dropdown nav_li">
@@ -28,63 +29,64 @@
 				</ul>
 			</nav>
 		</header>
-	<div class="first_page">
-		
-		<div class="form_opinion">
-			<h1 class="h1_fop">¡Contribuí con tu opinión!</h1>
-			<div class="form_contenedor">
-				<form>
-				<label class="label_zona" for="flabel_zona">ZONAS</label>
-				<div class ="input_zona">
-					<select name="zonas">
-						<option>PALERMO</option>
-						<option>CABALLITO</option>
-						<option>BELGRANO</option>
-						<option>NUÑEZ</option>
-						<option>PUERTO MADERO</option>
-						<option>COSTANERA</option>
-						<option>DEVOTO</option>
-						<option>ALMAGRO</option>
-					</select>
-				</div>
-				<label class="label_sitios" for="flabel_sitios">LOCALES</label>
-				<div class="input_sitios">
-					<select name="sitios">
-						
-					</select>
-				</div>
-				<div class="form_textarea">
-					<textarea placeholder="¡Tu opinión vale!" name="opinion"></textarea>
-				</div>
-				<div class="enviar">
-					<input type="submit" value="Enviar">
-				</div>
-			</form>
+	<div class="container">
+		<div class="row">
+			<div class="col-7">
+				<h1 class="h1">Buscá por zonas</h1>
+				<table class="table_zonas p-4 w-50">
+					<tr>
+						<td class="links_tabla"><a href="">Palermo</a></td>
+						<td class="links_tabla"><a href="">Caballito</a></td>
+					</tr>
+					<tr>
+						<td class="links_tabla"><a href="">Belgrano</a></td>
+						<td class="links_tabla"><a href="">Nuñez</a></td>
+					</tr>
+					<tr>
+						<td class="links_tabla"><a href="">Puerto Madero</a></td>
+						<td class="links_tabla"><a href="">Costanera</a></td>
+					</tr>
+					<tr>
+						<td class="links_tabla"><a href="">Devoto</a></td>
+						<td class="links_tabla"><a href="">Almagro</a></td>
+					</tr>
+				</table>
 			</div>
+			<div class="form_opinion col-5">
+				<h1 class="h1_fop">¡Contribuí con tu opinión!</h1>
+				<div class="form_contenedor">
+					<form>
+					<label class="label_zona" for="flabel_zona">ZONAS</label>
+					<div class ="input_zona">
+						<select name="zonas">
+							<option>PALERMO</option>
+							<option>CABALLITO</option>
+							<option>BELGRANO</option>
+							<option>NUÑEZ</option>
+							<option>PUERTO MADERO</option>
+							<option>COSTANERA</option>
+							<option>DEVOTO</option>
+							<option>ALMAGRO</option>
+						</select>
+					</div>
+					<label class="label_sitios" for="flabel_sitios">LOCALES</label>
+					<div class="input_sitios">
+						<select name="sitios">
+							
+						</select>
+					</div>
+					<div class="form_textarea">
+						<textarea placeholder="¡Tu opinión vale!" name="opinion"></textarea>
+					</div>
+					<div class="enviar">
+						<input type="submit" value="Enviar">
+					</div>
+				</form>
+				</div>
+			</div>	
 		</div>
-		<div class="zonas">
-			<h1 class="h1">Buscá por zonas</h1>
-			<table class="table_zonas">
-				<tr>
-					<td class="links_tabla"><a href="">Palermo</a></td>
-					<td class="links_tabla"><a href="">Caballito</a></td>
-				</tr>
-				<tr>
-					<td class="links_tabla"><a href="">Belgrano</a></td>
-					<td class="links_tabla"><a href="">Nuñez</a></td>
-				</tr>
-				<tr>
-					<td class="links_tabla"><a href="">Puerto Madero</a></td>
-					<td class="links_tabla"><a href="">Costanera</a></td>
-				</tr>
-				<tr>
-					<td class="links_tabla"><a href="">Devoto</a></td>
-					<td class="links_tabla"><a href="">Almagro</a></td>
-				</tr>
-			</table>
-		</div>
-		<div class="cuenta">
-			<div class="queres_saber">
+		<div class="cuenta row">
+			<div class="queres_saber col-7">
 				<h1>¿Querés saber cuánto vas a gastar?</h1>
 				<h2>Probá nuestro <a href="simuladorCuenta.html">simulador de cuenta</a></h2>
 			</div>
