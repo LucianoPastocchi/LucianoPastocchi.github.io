@@ -30,7 +30,6 @@ h1 {
 	position: sticky;
 	top: 0;
 	background-color: rgba(30, 33, 34, 0.6);
-	text-align: center;
 }
 
 .nav_ul {
@@ -251,5 +250,12 @@ li.dropdown {
 
 .carta {
 	margin: 20px;
-	width: 200px;
+}
+
+.carta img {
+	width: 100%;
+}
+
+.links_card a {
+
 }
