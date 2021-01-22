@@ -6,7 +6,7 @@
 
 body {
 	font-family: 'Arvo', serif;
-	background-image: url(boliche.jpg);
+	background-image: url(imag/boliche.jpg);
 	width: 100%;
 	height: 100vh;
 	position: absolute;
@@ -19,6 +19,8 @@ body {
 
 h1 {
 	color: white;
+	margin-left: 50px;
+	margin-right: 30px;
 }
 
 /*BARRA DE NAVEGACIÓN*/
@@ -28,7 +30,7 @@ h1 {
 	position: sticky;
 	top: 0;
 	background-color: rgba(30, 33, 34, 0.6);
-	margin-bottom: 20px;
+	text-align: center;
 }
 
 .nav_ul {
@@ -85,28 +87,6 @@ li.dropdown {
 
 /*FIN BARRA DE NAVEGACIÓN*/
 
-.first_page {
-	overflow: hidden;
-	width: 100%;
-	margin: 0 auto;
-	padding: 10px;
-}
-
-.first_page h1 {
-	color: white;
-	display: inline;
-}
-
-.form_opinion{
-	float: right;
-	width: 40%;
-}
-
-::after {
-	clear: both;
-  	display: table;
-}
-
 /*CONTENEDOR FORM OPINION*/
 
 .form_contenedor {
@@ -115,6 +95,7 @@ li.dropdown {
 	height: 500px;
 	border: 5px solid #441AD5;
 	border-radius: 10px;
+	margin-left: 40px;
 }
 
 .form_contenedor label {
@@ -205,46 +186,49 @@ li.dropdown {
 }
 
 /*FIN CONTENEDOR*
+
 /*TABLA ZONAS*/
 
-.table_zonas {
-	border-spacing: 40px;
-	text-transform: uppercase;
+.links_tabla {
+	display: inline-block;
+}
+
+.tab {
+	display: inline-block;
+	width: 350px;
+	padding: 20px;
 	box-sizing: border-box;
 }
 
-.table_zonas td {
-	background-color: #441AD5;
-	width: 200px;
-	padding: 7px;
-}
-
 .links_tabla a{
+	text-transform: uppercase;
 	text-decoration: none;
 	color: white;
-	font-size: 20px;
+	font-size: 30px;
+	background-color: #441AD5;
+	padding: 15px;
+	margin-bottom: 10px;
 }
 
 .links_tabla:hover > a{
 	color: #441AD5;
 	text-decoration: underline;
-}
-
-.links_tabla:hover {
 	background-color: white;
 }
 
 .queres_saber {
-	margin-top: 40px;
+	margin-left: 5px;
 }
 
 .queres_saber h1 {
 	background-color: black;
+	text-align: center;
 }
 
 .queres_saber h2 {
 	color: white;
-	margin: 30px 100px;
+	background-color: black;
+	text-align: center;
 }
 
 .queres_saber h2>a {
@@ -257,4 +241,15 @@ li.dropdown {
 	color: #441AD5;
 }
 
-	
+/*APARTADO CABALLITO*/
+
+.caballito h1 {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 60px;
+}
+
+.carta {
+	margin: 20px;
+	width: 200px;
+}
