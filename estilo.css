@@ -30,6 +30,7 @@ h1 {
 	position: sticky;
 	top: 0;
 	background-color: rgba(30, 33, 34, 0.6);
+	z-index: 997;
 }
 
 .nav_ul {
