@@ -6,7 +6,7 @@
 
 body {
 	font-family: 'Arvo', serif;
-	background-image: url(imag/boliche.jpg);
+	background-image: url("imag/boliche.jpg");
 	width: 100%;
 	height: 100vh;
 	position: absolute;
@@ -257,6 +257,3 @@ li.dropdown {
 	width: 100%;
 }
 
-.links_card a {
-
-}
